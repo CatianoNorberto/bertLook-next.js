@@ -25,7 +25,7 @@ const Cart = () => {
       }
      })
 
-     const {data} = await axios.post('https://bert-look-next-js.vercel.app//api/checkout', {lineItems})
+     const {data} = await axios.post('https://bert-look-next-js.vercel.app/api/checkout', {lineItems})
 
      const stripe = await stripePromise
 
